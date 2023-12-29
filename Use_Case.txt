@@ -1,0 +1,53 @@
+1. Deployment:
+   - Contract is deployed with the following details:
+     - Primary owner: Address 0xPrimaryOwner
+     - Secondary owner: Address 0xSecondaryOwner
+     - Property description: "Beautiful House"
+     - Property name: "Dream Villa"
+     - Property ID: 1
+
+2. Setting Price and Deadline:
+   - The primary owner sets the property price to 100 ETH.
+   - Deadline is set to 30 days from now.
+
+3. Buyer Deposits Funds:
+   - Buyer (Address 0xBuyer) initiates the transaction by depositing 10 ETH.
+   - Events emitted:
+     - `DepositPaid`: Buyer 0xBuyer paid 10 ETH.
+
+4. Passing Inspection:
+   - Buyer confirms the property inspection is passed.
+   - Events emitted:
+     - `InspectionPassed`: Buyer 0xBuyer passed the inspection.
+
+5. Raise Dispute:
+   - (Optional) Primary owner raises a dispute.
+   - Events emitted:
+     - `DisputeRaised`: Owner 0xPrimaryOwner raised a dispute.
+
+6. Resolve Dispute:
+   - (Optional) Buyer 0xBuyer resolves the dispute.
+   - Events emitted:
+     - `DisputeResolved`: Dispute resolved by Buyer.
+
+7. Approve Mortgage:
+   - Buyer 0xBuyer approves a mortgage of 30 ETH from Lender 0xLender.
+   - Events emitted:
+     - `MortgageApproved`: Lender 0xLender approved a mortgage of 30 ETH.
+
+8. Meeting Contingency:
+   - Buyer confirms meeting the contingency.
+   - Events emitted:
+     - `ContingencyMet`: Buyer met the contingency.
+
+9. Release Escrow:
+   - Primary owner releases the escrow amount (10 ETH) to themselves.
+   - Events emitted:
+     - `EscrowReleased`: Escrow released to the primary owner.
+
+10. Transfer Property:
+    - Buyer 0xBuyer transfers the property to themselves.
+    - Events emitted:
+      - `PropertyTransferred`: Property transferred from 0xPrimaryOwner to 0xBuyer for 100 ETH.
+
+This is a basic illustration, and the actual execution would depend on the specific calls made to the contract functions and the conditions specified in the contract.
