@@ -1,0 +1,3 @@
+Designed for simplicity and transparency, this Ethereum smart contract is a versatile tool for real estate transactions. Explore, contribute, and enhance your real estate dealings on the blockchain.
+
+Disclaimer: Adhere to legal and regulatory requirements before using this contract for real-world transactions
